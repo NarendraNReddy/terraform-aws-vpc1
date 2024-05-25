@@ -39,9 +39,6 @@ output "database_subnet_group_name" {
 
 
 
-# output "igw"{
-#     value=aws_internet_gateway.gw.id
-# }
 
 # output "default_vpc_id1" {
 #   value = data.aws_vpc.default.id
@@ -51,9 +48,7 @@ output "database_subnet_group_name" {
 #   value=data.aws_route_table.main.id
 # }
 
-# output "igw"{
-#     value=aws_internet_gateway.gw.id
-# }
+
 
 # output "aip_name" {
 #   value=aws_eip.expense
