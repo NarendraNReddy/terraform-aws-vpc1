@@ -97,7 +97,6 @@ resource "aws_db_subnet_group" "default" {
 }
 
 
-
 #EIP
 resource "aws_eip" "expense" {
   domain   = "vpc"
