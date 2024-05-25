@@ -35,6 +35,10 @@ output "database_subnet_group_name" {
   value = aws_db_subnet_group.default.name
 }
 
+output "igw"{
+    value=aws_internet_gateway.gw.id
+}
+
 # output "default_vpc_id1" {
 #   value = data.aws_vpc.default.id
 # }
@@ -62,7 +66,3 @@ output "database_subnet_group_name" {
 # output "public_route"{
 #     value=aws_route.public_route.id
 # }
-
-output "igw"{
-    value=aws_internet_gateway.gw.id
-}
