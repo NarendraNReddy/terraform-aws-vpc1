@@ -13,3 +13,13 @@ output "igw"{
 # output "public_subnet" {
 #   value=aws_subnet.public[0].id
 # }
+
+
+
+output "default_vpc_id1" {
+  value = data.aws_vpc.default.id
+}
+
+output "default_vpc_route_table" {
+  value=data.aws_route_table.main.id
+}
