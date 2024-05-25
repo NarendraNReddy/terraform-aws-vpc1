@@ -43,9 +43,9 @@ output "database_subnet_group_name" {
 #   value=data.aws_route_table.main.id
 # }
 
-output "igw"{
-    value=aws_internet_gateway.gw.id
-}
+# output "igw"{
+#     value=aws_internet_gateway.gw.id
+# }
 
 # output "aip_name" {
 #   value=aws_eip.expense
@@ -62,3 +62,7 @@ output "igw"{
 # output "public_route"{
 #     value=aws_route.public_route.id
 # }
+
+output "igw"{
+    value=aws_internet_gateway.gw.id
+}
